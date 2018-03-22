@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Geometria.ConsoleApp", "CSharp.Geometria.ConsoleApp\CSharp.Geometria.ConsoleApp.csproj", "{9F4227B5-4AEB-49F0-B645-50A60F97978C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F4227B5-4AEB-49F0-B645-50A60F97978C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4227B5-4AEB-49F0-B645-50A60F97978C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4227B5-4AEB-49F0-B645-50A60F97978C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4227B5-4AEB-49F0-B645-50A60F97978C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D7B4D22-600E-46F8-A462-ED3730338C6D}
+	EndGlobalSection
+EndGlobal

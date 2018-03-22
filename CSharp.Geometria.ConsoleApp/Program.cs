@@ -8,9 +8,8 @@ namespace CSharp.Geometria.ConsoleApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            //Cubo
             EstudoGeometrico eg = new EstudoGeometrico();
             eg.RegistraFigura(new Quadrado(lado: 4));
             eg.RegistraFigura(new Triangulo(@base: 2, altura: 5));

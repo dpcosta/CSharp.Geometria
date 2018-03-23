@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSharp.Geometria.ConsoleApp
 {
-    class Figura2D
+    abstract class Figura2D : ICapazDeCalcularArea, ICapazDeCalcularPerimetro
     {
-        //bidimensional
+        public abstract double Area();
+
+        public abstract double Perimetro();
     }
 }

@@ -1,19 +1,28 @@
 ﻿namespace CSharp.Geometria.ConsoleApp
 {
-    internal class Trapezio : Figura2D, ICapazDeCalcularArea
+    internal class Trapezio : Figura2D
     {
-        public int Base { get; private set; }
+        public int BaseMaior { get; private set; }
+        public int BaseMenor { get; private set; }
         public int Altura { get; private set; }
+        public int Lado1 { get; private set; }
+        public int Lado2 { get; private set; }
 
-        public Trapezio(int @base, int altura)
+        public Trapezio(int baseMenor, int baseMaior, int altura)
         {
-            Base = @base;
+            BaseMenor = baseMenor;
+            BaseMaior = baseMaior;
             Altura = altura;
         }
 
-        public double Area()
+        public override double Area()
         {
-            return 13.0;
+            return Altura * ((BaseMaior + BaseMenor) / 2);
+        }
+
+        public override double Perimetro()
+        {
+            return (BaseMaior + BaseMenor +  Lado1 + Lado2);
         }
     }
 }

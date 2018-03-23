@@ -2,7 +2,7 @@
 
 namespace CSharp.Geometria.ConsoleApp
 {
-    internal class Quadrado : Figura2D, ICapazDeCalcularArea, ICapazDeCalcularPerimetro
+    internal class Quadrado : Figura2D
     {
         public int Lado { get; private set; }
 
@@ -11,12 +11,12 @@ namespace CSharp.Geometria.ConsoleApp
             this.Lado = lado;
         }
 
-        public double Area()
+        public override double Area()
         {
             return Math.Pow(Lado, 2);
         }
 
-        public double Perimetro()
+        public override double Perimetro()
         {
             return Lado * 4;
         }

@@ -14,7 +14,7 @@ namespace CSharp.Geometria.ConsoleApp
             eg.RegistraFigura(new Quadrado(lado: 4));
             eg.RegistraFigura(new Triangulo(@base: 2, altura: 5));
             eg.RegistraFigura(new Circulo(raio: 4));
-            eg.RegistraFigura(new Trapezio(@base: 3, altura: 4));
+            eg.RegistraFigura(new Trapezio(2, 3, 4));
             eg.RegistraFigura(new Elipse(raio: 4));
             eg.RegistraFigura(new Quadrado(2));
             eg.RegistraFigura(new Cubo(lado: 3));

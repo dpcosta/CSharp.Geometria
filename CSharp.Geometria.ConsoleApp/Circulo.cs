@@ -2,7 +2,7 @@
 
 namespace CSharp.Geometria.ConsoleApp
 {
-    internal class Circulo : Figura2D, ICapazDeCalcularArea
+    internal class Circulo : Figura2D
     {
         public int Raio { get; private set; }
 
@@ -11,9 +11,14 @@ namespace CSharp.Geometria.ConsoleApp
             Raio = raio;
         }
 
-        public double Area()
+        public override double Area()
         {
             return Math.PI * Math.Pow(Raio, 2);
+        }
+
+        public override double Perimetro()
+        {
+            return 2 * Math.PI * Raio;
         }
     }
 }

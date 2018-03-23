@@ -8,9 +8,16 @@ namespace CSharp.Geometria.ConsoleApp
 {
     class Elipse : Figura2D, ICapazDeCalcularArea
     {
+        public int Raio { get; private set; }
+
+        public Elipse(int raio)
+        {
+            Raio = raio;
+        }
+
         public double Area()
         {
-            return 22.0;
+            return Raio*45.0;
         }
     }
 }

@@ -25,5 +25,18 @@ namespace CSharp.Geometria.ConsoleApp
                 Console.WriteLine("Área da figura é " + figuras[i].Area());
             }
         }
+
+        internal void EmiteEstudoPerimetro()
+        {
+            for (int i = 0; i < totalFiguras; i++)
+            {
+                var f = figuras[i];
+                if (f is Quadrado)
+                {
+                    var q = (Quadrado)f;
+                    Console.WriteLine("Perímetro da figura é " + q.Perimetro());
+                }
+            }
+        }
     }
 }

@@ -48,6 +48,7 @@
     <Compile Include="Elipse.cs" />
     <Compile Include="EstudoGeometrico.cs" />
     <Compile Include="Figura2D.cs" />
+    <Compile Include="ICapazDeCalcularPerimetro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quadrado.cs" />
